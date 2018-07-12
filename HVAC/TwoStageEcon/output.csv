@@ -1,0 +1,22 @@
+
+COP Cooling is 6.2916813331632
+COP Heating is 7.2916813331632
+Power in is 27949.60372088486 W
+
+
+STAGE 1
+FlowRate: 1.0306259566644376 kg/s
+Pressure at Evaporator: 364481.3329488294 Pa
+Temperature at Evaporator: 279.54999999999995 K
+Enthalpy at Evaporator: 402361.753366242 J/kg-K
+Entropy at Evaporator: 1724.5373376566888 J
+Enthalpy at Economizer: 415784.40784656454 J
+
+
+STAGE 2
+FlowRate: 1.161532958130233 kg/s
+Pressure1: 937237.3788486967 Pa
+Temperature1: 300.0216728485214 K
+Enthalpy1: 415274.0673706187 J
+Entropy1: 1730.459367912438 J/kg-K
+Enthalpy2: 425597.365544742 J

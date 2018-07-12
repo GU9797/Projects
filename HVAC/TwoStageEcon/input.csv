@@ -1,0 +1,15 @@
+Refrig R134a
+ton(W) 175850
+TIE(K) 285.15
+TOE(K) 280.15
+ApprEvap(K) .8
+SupHeat(K) .2
+TIC(K) 303.15
+TOC(K) 309.15
+ApprCond(K) 1
+Subcool(K) .1
+dH1_dH2 1.3
+Eff1 .83
+Eff2 .83
+EffMotor .9408
+BearLoss(W) 500

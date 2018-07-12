@@ -1,0 +1,61 @@
+<!doctype html>
+<html>
+  <head>
+    <title>p2 - scaffold</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.45.0/mapbox-gl.js'></script>
+    <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.45.0/mapbox-gl.css' rel='stylesheet' />
+    <style>
+        body { margin:0; padding:0; font-family: 'Helvetica Neue', Helvetica, Arial, Sans-serif; }
+        #map { position:absolute; top:0; bottom:0; width:100%; }
+        .mapboxgl-popup { max-width: 250px; }
+        h1 { font-size: 20px; line-height: 30px; }
+        h2 { font-size: 14px; line-height: 20px; margin-bottom: 10px; }
+        a { text-decoration: none; color: #2dc4b2; }
+        #console {
+          position: absolute;
+          top: 0px;
+          width: 350px;
+          margin: 10px;
+          padding: 10px 20px;
+          background-color: white;
+        }
+        .session { margin-bottom: 20px; }
+        #legend { position: absolute; top: 370px; margin: 10px;
+          padding: 10px; background-color: white;
+          line-height: 18px; height: 150px; margin-bottom: 10px; width: 200px; }
+        .legend-key { display: inline-block; border-radius: 20%;
+          width: 10px; height: 10px; margin-right: 5px; }
+        .sizeLeg { position: absolute; top: 550px; margin: 10px;
+          padding: 10px; background-color: white;
+          line-height: 18px; height: 150px; margin-bottom: 10px; width: 130px; }
+        .sizeLeg p { margin-left: 30px; position: absolute; display: block; top: -13px; }
+        .sizeLeg div { position: relative; }
+        .sizeLeg div span { border-radius: 50%; display: inline-block; margin-right: 5px;
+          opacity: 0.8; background-color: #d49a66; }
+    </style>
+    <link href="main.css"  type="text/css" rel="stylesheet" />
+  </head>
+  <body>
+    <div id="app" class="flex center"></div>
+    <div id='map'></div>
+    <div id='console'>
+      <h1>Terrorism in the US</h1>
+      <p>The visualization illustrates terrorist attack patterns from 1970-1997, and contextualizes the recent litany of school shootings. The majority of attacks involve a Bombing/Explosion and are concentrated in urban centers. Notable attacks include the Oklahoma City bombing in 1995 (168 deaths), and the LaGuardia Airport bombing in 1975 (11 deaths).</p>
+      <p>Data: <a href='https://www.kaggle.com/START-UMD/gtd/data'>US Terrorism deaths</a> from 1970 to 1997</p>
+      <div class='session' id='sliderbar'>
+      <h2>Year: <label id='active-year'>All</label></h2>
+      <input id='slider' class='row' type='range' min='1970' max='1997' step='1' value='1970' />
+      </div>
+    </div>
+    <div id='legend'>
+      <h2>Type of Attack</h2>
+    </div>
+    <div id='sizeLeg' class='sizeLeg'>
+      <h2>Number of Deaths</h2>
+    </div>
+    <script src="bundle.js"></script>
+  </body>
+</html>
