@@ -6,7 +6,7 @@ HVAC:
 All projects relating to HVAC. Currently contains python implementation of a Two-Stage Economizer Refrigeration Cycle.
 
 MachineLearning/JollyChic:
-Samples of code used for predicting consumer behavior in my work at JollyChic
+Samples of code used for predicting consumer behavior
 
 Nonprofit Network Project:
 Search engine implementation for Chicago nonprofit organizations.
