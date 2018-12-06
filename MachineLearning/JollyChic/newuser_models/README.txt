@@ -22,14 +22,14 @@ Optimal max depth of 12, number of estimators is 100
 
 Code:
 
-/ModelBuilding/rf_build.py
+rf_build.py
 Hypertuning parameters for random forest. Used kfold cross validation to validate parameters
 
-/ModelBuilding/gb_build.py
+gb_build.py
 Hypertuning parameters for gradient boosting
 
-/ModelTesting/train_test_fit.py
+train_test_fit.py
 Testing ROC AUC for each model fit on same training/test split
 
-/ModelTesting/gb_rf_test.py
+gb_rf_test.py
 Testing ROC AUC, Accuracy, plotting ROC curve, printing feature importances for preloaded models
