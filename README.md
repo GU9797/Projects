@@ -8,6 +8,9 @@ All projects relating to HVAC. Currently contains python implementation of a Two
 MachineLearning/JollyChic:
 Samples of code used for predicting consumer behavior
 
+MENG Design FInal Report:
+Research paper on optimizing computer vision algorithms to analyze multiphase flow. 
+
 Nonprofit Network Project:
 Search engine implementation for Chicago nonprofit organizations.
 
