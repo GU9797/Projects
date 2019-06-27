@@ -5,8 +5,8 @@ Folders:
 HVAC:
 All projects relating to HVAC. Currently contains python implementation of a Two-Stage Economizer Refrigeration Cycle.
 
-MachineLearning/JollyChic:
-Samples of code used for predicting consumer behavior
+MachineLearning:
+Class work and Kaggle projects relating to ML
 
 MENG Design FInal Report:
 Research paper on optimizing computer vision algorithms to analyze multiphase flow. 
